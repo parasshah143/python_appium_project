@@ -81,7 +81,7 @@ class TestAndroidDeviceCloud(AppiumConfig):
 
         self.driver.find_element(AppiumBy.XPATH, "//*[@text='OK']").click()
 
-        # send password as welcome123
+       # send password as welcome123
         # send email as test123
         # click on create
         # assert the error message of mail id
